@@ -12,3 +12,4 @@ main();
   else
      printf("Congrats you have passed.");
  getch();
+}
