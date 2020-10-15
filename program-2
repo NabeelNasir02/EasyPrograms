@@ -1,0 +1,14 @@
+// Program to input marks of 2 Subjects and Print the result 
+
+main();
+{
+  int m1, m2;
+  clrscr();
+  printf("Enter two subjects marks: ");
+  scanf("%d %d", &m1,&m2);
+  
+  if(m1 < 35 || m2 < 35)
+     printf("Sorry you have failed.");
+  else
+     printf("Congrats you have passed.");
+ getch();
