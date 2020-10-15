@@ -1,4 +1,4 @@
-// Program to input marks of 2 Subjects and Print the result 
+// Program to input marks of 2 Subjects and Print the result using OR
 
 main();
 {
@@ -11,5 +11,21 @@ main();
      printf("Sorry you have failed.");
   else
      printf("Congrats you have passed.");
+ getch();
+}
+
+// Program to input marks of 2 Subjects and print the result using AND
+
+main();
+{
+  int m1, m2;
+  clrscr();
+  printf("Enter two subjects marks: ");
+  scanf("%d %d", &m1,&m2);
+  
+  if(m1 >= 35 && m2 >= 35)
+     printf("Congrats you have passed.");
+  else
+     printf("Sorry you have failed.");
  getch();
 }
