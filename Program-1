@@ -1,3 +1,5 @@
+// Program to swap two numbers
+
 #include<stdio.h>
 int main()
 {
@@ -16,7 +18,7 @@ int main()
       // Value of temp (initial value of first) is assigned to second
       second = temp;
 
-      printf("\nAfter swapping, firstNumber = %.2lf\n", first);
-      printf("After swapping, secondNumber = %.2lf", second);
+      printf("\nAfter swapping, first Number = %.2lf", first);
+      printf("\nAfter swapping, second Number = %.2lf", second);
       return 0;
 }
